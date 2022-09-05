@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Raymw1/nlw4-nodejs-npscalculator#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "nodemailer": "^6.7.8",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^5.0.11",
     "typeorm": "0.2.31",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/jest": "^29.0.0",
+    "@types/nodemailer": "^6.4.5",
     "@types/supertest": "^2.0.12",
     "@types/uuid": "^8.3.4",
     "jest": "^29.0.2",
