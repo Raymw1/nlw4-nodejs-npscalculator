@@ -7,7 +7,7 @@
     "start": "ts-node .",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn .",
     "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js",
-    "test": "NODE_ENV=test jest",
+    "test": "NODE_ENV=test jest -i"
   },
   "repository": {
     "type": "git",
