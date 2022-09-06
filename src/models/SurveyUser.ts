@@ -25,7 +25,7 @@ class SurveyUser {
   @JoinColumn({ name: 'survey_id' })
   survey: Survey;
   @Column()
-  value: string;
+  value: number;
   @CreateDateColumn()
   created_at: Date;
 
